@@ -7,5 +7,5 @@ Now you're probably thinking, "But EEEEEE74, why is it called Rambong Strief?" <
 Honestly, I don't know. <br>
 I pressed random letters and came up with the name. <br>
 <br>
-<i> Please don't look in beta.js <br>
-Please...</i>
+<i> Please don't look in </i> beta.js <br>
+<i> Please...</i>
