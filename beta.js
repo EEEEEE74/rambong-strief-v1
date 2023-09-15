@@ -1,4 +1,18 @@
-beta.js don work goofy
-this was a waste of time
-try coming back in a week to see if i fix this goofy program
--EEEEEE74
+<!DOCTYPE html>
+
+  <html>
+
+  <head>
+
+  <title> Good job! You found the waste of time that I have been working on. </title>
+
+  </head>
+
+<body>
+
+  <input id="textBox1" type="text" value="waste_of_time.mhtml" />
+  
+</body>
+
+</html>
+
