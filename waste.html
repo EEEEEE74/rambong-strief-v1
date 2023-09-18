@@ -22,5 +22,24 @@ function typeWriter() {
 }
 </script>
 
+<button onclick="typeWriter()">Hear the story</button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'On a regular old Tuesday night, where absolutely nothing could go wrong, I sat in my bed. Laying there, I got bored and decided to head downstairs to go get my deck of cards. As I was walking down... Wanna hear the rest? Wait until waste2.html to release and then I will add the story to my github repository.';
+var speed = 100;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+  
 </body>
 </html>
