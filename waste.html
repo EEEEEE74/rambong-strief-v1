@@ -1,4 +1,26 @@
-I have deleted waste.html.
-I'm extremely sorry.
-It was an accident.
-I will make a new one soon.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>waste.html</h1>
+
+<button onclick="typeWriter()">Begin</button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'I deleted waste.html on accident. I didnt mean to so I made this. Also if you dont see any apostrophies its because those break the code. Anyways, I will be working on a new version of waste.html, but it will be a while before the public release of waste2.html for Rambong Strief. If you are still here, I am going to copy and paste a sneak peek of my new story I am writing called "The Old Ones". It will be full of new creatures and plenty of suspensful moments. I hope you enjoy.';
+var speed = 100;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+</html>
